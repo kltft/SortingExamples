@@ -7,29 +7,31 @@ namespace SortingAndStrategyPattern
         static void Main(string[] args)
         {
             DataService dataService = new DataService();
-            Console.WriteLine("===============" + "Bubble Sort" + "===============");
-            var firstArray = dataService.GenerateIntArray(5);
-            strategy.BubbleSortStrategy.BubbleSort(firstArray);
-            Console.WriteLine("Final Status of Array: ");
-            Common.printArray(firstArray);
-
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("===============" + "Insertion Sort" + "===============");
-            var secondArray = dataService.GenerateIntArray(5);
-            strategy.InsertionSortStrategy.InsertionSort(secondArray);
-            Console.WriteLine("Final Status of Array: ");
-            Common.printArray(secondArray);
-
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("===============" + "Merge Sort" + "===============");
-            var thirdArray = dataService.GenerateIntArray(7);
-            Console.WriteLine("Initial Status of Array: ");
-            Common.printArray(thirdArray);
-            strategy.MergeSortStrategy.MergeSort(thirdArray, 0, thirdArray.Length - 1);
-            Console.WriteLine("Final Status of Array: ");
-            Common.printArray(thirdArray);
+            for (int i = 0; i <= 2; i++)
+            {
+                var array = dataService.GenerateIntArray((i + 1) * 3);
+                Console.WriteLine("Initial Status of Array: ");
+                Common.printArray(array);
+                switch (array.Length)
+                {
+                    case 3:
+                        Console.WriteLine("===============" + "Bubble Sort" + "===============");
+                        strategy.BubbleSortStrategy.BubbleSort(array);
+                        break;
+                    case 6:
+                        Console.WriteLine("===============" + "Insertion Sort" + "===============");
+                        strategy.InsertionSortStrategy.InsertionSort(array);
+                        break;
+                    default:
+                        Console.WriteLine("===============" + "Merge Sort" + "===============");;
+                        strategy.MergeSortStrategy.MergeSort(array, 0, array.Length - 1);
+                        break;
+                }
+                Console.WriteLine("Final Status of Array: ");
+                Common.printArray(array);
+                Console.WriteLine();
+                Console.WriteLine();
+            }
         }
     }
 }
