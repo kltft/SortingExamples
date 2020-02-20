@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cody Kaltoft\\Projects\\SortingAndStrategyPattern\\SortingAndStrategyPattern\\SortingAndStrategyPattern.csproj": {}
+    "C:\\Users\\Cody Kaltoft\\Projects\\SortingAndStrategyPattern\\SortingAndStrategyPattern.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cody Kaltoft\\Projects\\SortingAndStrategyPattern\\SortingAndStrategyPattern\\SortingAndStrategyPattern.csproj": {
+    "C:\\Users\\Cody Kaltoft\\Projects\\SortingAndStrategyPattern\\SortingAndStrategyPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cody Kaltoft\\Projects\\SortingAndStrategyPattern\\SortingAndStrategyPattern\\SortingAndStrategyPattern.csproj",
+        "projectUniqueName": "C:\\Users\\Cody Kaltoft\\Projects\\SortingAndStrategyPattern\\SortingAndStrategyPattern.csproj",
         "projectName": "SortingAndStrategyPattern",
-        "projectPath": "C:\\Users\\Cody Kaltoft\\Projects\\SortingAndStrategyPattern\\SortingAndStrategyPattern\\SortingAndStrategyPattern.csproj",
+        "projectPath": "C:\\Users\\Cody Kaltoft\\Projects\\SortingAndStrategyPattern\\SortingAndStrategyPattern.csproj",
         "packagesPath": "C:\\Users\\Cody Kaltoft\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cody Kaltoft\\Projects\\SortingAndStrategyPattern\\SortingAndStrategyPattern\\obj\\",
+        "outputPath": "C:\\Users\\Cody Kaltoft\\Projects\\SortingAndStrategyPattern\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

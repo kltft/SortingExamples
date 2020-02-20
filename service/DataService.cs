@@ -16,7 +16,7 @@ namespace SortingAndStrategyPattern
             int[] integerArray = new int[length];
             for(int i = 0; i < length; i++)
             {
-                integerArray[i] = random.Next();
+                integerArray[i] = random.Next(length*10);
             }
             return integerArray;
         }
@@ -26,7 +26,7 @@ namespace SortingAndStrategyPattern
             var integerList = new List<int>();
             for(int i = 0; i < count; i++)
             {
-                integerList.Add(random.Next());
+                integerList.Add(random.Next(count*10));
             }
             return integerList;
         }
