@@ -6,9 +6,7 @@ namespace SortingAndStrategyPattern.strategy
     {
         public static void BubbleSort(int[] arr)
         {
-			Console.WriteLine("Initial Status of Array: ");
-            Common.printArray(arr);
-
+            //could be improved by testing for a swap and not just doing array.length-1 passes
             int n = arr.Length;
             for (int i = 0; i < n - 1; i++)
             {

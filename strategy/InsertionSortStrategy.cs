@@ -6,9 +6,6 @@ namespace SortingAndStrategyPattern.strategy
     {
         public static void InsertionSort(int[] arr)
         {
-			Console.WriteLine("Initial Status of Array: ");
-            Common.printArray(arr);
-
             int n = arr.Length;
             for (int i = 1; i < n; ++i)
             {
